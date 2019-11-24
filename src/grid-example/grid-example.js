@@ -12,6 +12,7 @@ const useStyles = makeStyles({
         flexDirection: "row",
         justifyContent: "center",
         alignItems: "center",
+        paddingTop: "130px",
     },
     gridItem: {
         padding: "1.0rem",
