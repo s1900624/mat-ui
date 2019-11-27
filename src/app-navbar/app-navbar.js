@@ -26,7 +26,7 @@ const AppNavbar = () => {
                 <Toolbar>
                     <Link to="/">
                         <Typography variant="h5" className={classes.title}>
-                            Material Ui Example
+                            Material UI && Routes
                         </Typography>
                     </Link>
                     <Routes/>

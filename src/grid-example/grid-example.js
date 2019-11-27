@@ -28,7 +28,7 @@ const GridExample = () => {
     const classes = useStyles();
     return (
         <main>
-            <Grid container className={classes.gridContainer} spacing={2}>
+            <Grid container className={classes.gridContainer} spacing={1}>
                 {datas.map((data) => {
                     return(
                         <Grid key={data.id} item xs={3} className={classes.gridItem}>
