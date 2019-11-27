@@ -37,10 +37,10 @@ const Contact = () => {
             <Grid item xs={3}>
                 <form className={classes.form}>
                     <FormControl className={classes.form}>
-                        <TextField className={classes.input} fullWidth label="Firstname" />
-                        <TextField className={classes.input} fullWidth label="Lastname" />
-                        <TextField className={classes.input} fullWidth label="Email" type="email" />
-                        <TextareaAutosize className={classes.textarea} rows={10} fullWidth />
+                        <TextField className={classes.input} label="Firstname" />
+                        <TextField className={classes.input} label="Lastname" />
+                        <TextField className={classes.input} label="Email" type="email" />
+                        <TextareaAutosize className={classes.textarea} rows={10} />
                         <RadioGroup className={classes.radiobuttons} aria-label="gender" name="gender">
                             <FormControlLabel value="male"   control={<Radio />} label="Male" />
                             <FormControlLabel value="female" control={<Radio />} label="Female" />
