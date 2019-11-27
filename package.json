@@ -2,7 +2,7 @@
   "name": "mat-ui",
   "version": "1.0.0",
   "private": true,
-  "homepage": "http://s1900624.github.io/mat-ui",
+  "homepage": "https://s1900624.github.io/mat-ui",
   "dependencies": {
     "@material-ui/core": "^4.7.0",
     "@material-ui/icons": "^4.5.1",
